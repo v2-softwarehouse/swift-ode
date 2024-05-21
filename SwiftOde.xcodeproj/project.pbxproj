@@ -10,6 +10,7 @@
 		545E08E22BFCFA8600ECE13D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E08DD2BFCF9DE00ECE13D /* XCTest.framework */; platformFilter = ios; };
 		545E08E42BFCFACD00ECE13D /* SwiftOdeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545E08E32BFCFACD00ECE13D /* SwiftOdeTests.swift */; };
 		545E08EA2BFCFB3A00ECE13D /* BaseViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545E08E92BFCFB3A00ECE13D /* BaseViewModelTest.swift */; };
+		545E08EB2BFCFC4E00ECE13D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E08DD2BFCF9DE00ECE13D /* XCTest.framework */; };
 		547A3F642BFC1592004D96F4 /* SwiftOde.docc in Sources */ = {isa = PBXBuildFile; fileRef = 547A3F632BFC1592004D96F4 /* SwiftOde.docc */; };
 		547A3F6A2BFC1592004D96F4 /* SwiftOde.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547A3F5F2BFC1592004D96F4 /* SwiftOde.framework */; };
 		547A3F702BFC1592004D96F4 /* SwiftOde.h in Headers */ = {isa = PBXBuildFile; fileRef = 547A3F622BFC1592004D96F4 /* SwiftOde.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -88,6 +89,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				545E08EB2BFCFC4E00ECE13D /* XCTest.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
