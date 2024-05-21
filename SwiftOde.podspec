@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = 'SwiftOde'
-  spec.version      = '0.0.1'
+  spec.version      = '0.0.2'
   spec.authors      = { 
     'v2.softwarehouse' => 'v2.softwarehouse@gmail.com'
   }
