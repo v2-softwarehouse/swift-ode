@@ -24,4 +24,5 @@ Pod::Spec.new do |spec|
   spec.swift_version = "4.2"
   spec.source_files        = "**/*.{h,m,swift}"
   spec.public_header_files = "**/*.h"
+
 end
