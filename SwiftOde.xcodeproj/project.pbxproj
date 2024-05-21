@@ -7,10 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		546C88902BFCEAB1008DC913 /* SwiftOdeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547A3F6E2BFC1592004D96F4 /* SwiftOdeTests.swift */; };
+		545E08E22BFCFA8600ECE13D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 545E08DD2BFCF9DE00ECE13D /* XCTest.framework */; platformFilter = ios; };
+		545E08E42BFCFACD00ECE13D /* SwiftOdeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545E08E32BFCFACD00ECE13D /* SwiftOdeTests.swift */; };
+		545E08EA2BFCFB3A00ECE13D /* BaseViewModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 545E08E92BFCFB3A00ECE13D /* BaseViewModelTest.swift */; };
 		547A3F642BFC1592004D96F4 /* SwiftOde.docc in Sources */ = {isa = PBXBuildFile; fileRef = 547A3F632BFC1592004D96F4 /* SwiftOde.docc */; };
 		547A3F6A2BFC1592004D96F4 /* SwiftOde.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 547A3F5F2BFC1592004D96F4 /* SwiftOde.framework */; };
-		547A3F6F2BFC1592004D96F4 /* SwiftOdeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547A3F6E2BFC1592004D96F4 /* SwiftOdeTests.swift */; };
 		547A3F702BFC1592004D96F4 /* SwiftOde.h in Headers */ = {isa = PBXBuildFile; fileRef = 547A3F622BFC1592004D96F4 /* SwiftOde.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		547A3F922BFC15E7004D96F4 /* ErrorOutput.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547A3F792BFC15E5004D96F4 /* ErrorOutput.swift */; };
 		547A3F932BFC15E7004D96F4 /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 547A3F7A2BFC15E5004D96F4 /* ViewModel.swift */; };
@@ -49,11 +50,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		545E08DD2BFCF9DE00ECE13D /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		545E08E32BFCFACD00ECE13D /* SwiftOdeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOdeTests.swift; sourceTree = "<group>"; };
+		545E08E92BFCFB3A00ECE13D /* BaseViewModelTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewModelTest.swift; sourceTree = "<group>"; };
 		547A3F5F2BFC1592004D96F4 /* SwiftOde.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SwiftOde.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		547A3F622BFC1592004D96F4 /* SwiftOde.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SwiftOde.h; sourceTree = "<group>"; };
 		547A3F632BFC1592004D96F4 /* SwiftOde.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = SwiftOde.docc; sourceTree = "<group>"; };
 		547A3F692BFC1592004D96F4 /* SwiftOdeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftOdeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		547A3F6E2BFC1592004D96F4 /* SwiftOdeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftOdeTests.swift; sourceTree = "<group>"; };
 		547A3F792BFC15E5004D96F4 /* ErrorOutput.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ErrorOutput.swift; sourceTree = "<group>"; };
 		547A3F7A2BFC15E5004D96F4 /* ViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
 		547A3F7B2BFC15E5004D96F4 /* ViewModelFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewModelFactory.swift; sourceTree = "<group>"; };
@@ -92,6 +95,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				545E08E22BFCFA8600ECE13D /* XCTest.framework in Frameworks */,
 				547A3F6A2BFC1592004D96F4 /* SwiftOde.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -99,12 +103,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		545E08DC2BFCF9DE00ECE13D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				545E08DD2BFCF9DE00ECE13D /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		547A3F552BFC1592004D96F4 = {
 			isa = PBXGroup;
 			children = (
 				547A3F612BFC1592004D96F4 /* SwiftOde */,
 				547A3F6D2BFC1592004D96F4 /* SwiftOdeTests */,
 				547A3F602BFC1592004D96F4 /* Products */,
+				545E08DC2BFCF9DE00ECE13D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -150,7 +163,8 @@
 		547A3F6D2BFC1592004D96F4 /* SwiftOdeTests */ = {
 			isa = PBXGroup;
 			children = (
-				547A3F6E2BFC1592004D96F4 /* SwiftOdeTests.swift */,
+				545E08E92BFCFB3A00ECE13D /* BaseViewModelTest.swift */,
+				545E08E32BFCFACD00ECE13D /* SwiftOdeTests.swift */,
 			);
 			path = SwiftOdeTests;
 			sourceTree = "<group>";
@@ -275,7 +289,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				546C88902BFCEAB1008DC913 /* SwiftOdeTests.swift in Sources */,
 				547A3F952BFC15E7004D96F4 /* BaseViewController.swift in Sources */,
 				547A3F9D2BFC15E7004D96F4 /* UseCaseDispatcher.swift in Sources */,
 				547A3F962BFC15E7004D96F4 /* ViewModelProvider.swift in Sources */,
@@ -308,7 +321,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				547A3F6F2BFC1592004D96F4 /* SwiftOdeTests.swift in Sources */,
+				545E08E42BFCFACD00ECE13D /* SwiftOdeTests.swift in Sources */,
+				545E08EA2BFCFB3A00ECE13D /* BaseViewModelTest.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
