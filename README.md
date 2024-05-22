@@ -86,15 +86,13 @@ Ode is applied directly to the classes of digital products. It relies on inherit
 ### Installation
 
 ```bash
-# Example installation command
 pod 'SwiftOde'
 
 ```
 
 ### Usage
 
-```python
-# Example usag
+```swift
 class GETUseCase : UseCase {
   var repo: UseCaseRepository
   
