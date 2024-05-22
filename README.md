@@ -125,7 +125,3 @@ For more information, please contact us at v2.softwarehouse@gmail.com.
 ## Acknowledgements
 
 We thank all contributors and supporters who have been part of the Ode journey since its inception.
-
----
-
-*Note: This is a sample README template. Please modify it according to the specifics of your project.*
